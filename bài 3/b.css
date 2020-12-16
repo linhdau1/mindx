@@ -1,0 +1,35 @@
+body{
+    justify-content: center;
+    display: flex;
+}
+#continer{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    background-color: antiquewhite;
+    justify-content: center;
+    
+}
+#heading1 {
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 0px;
+}
+#heading2{
+    font-size: 17px;
+    text-align: center;
+}
+#three{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+#input{
+    width: 200px;
+    height: 20px;
+    border-radius: 2px;
+    padding-right: 20px;
+}
