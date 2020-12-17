@@ -1,6 +1,7 @@
 body{
     justify-content: center;
     display: flex;
+    font-weight: bold;
 }
 #continer{
     height: 300px;
@@ -18,7 +19,7 @@ body{
     margin-top: 0px;
 }
 #heading2{
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
 }
 #three{
@@ -26,10 +27,23 @@ body{
     text-align: center;
     justify-content: center;
     display: flex;
+    padding-top: 40px;
 }
-#input{
+#input_text{
     width: 200px;
     height: 20px;
     border-radius: 2px;
     padding-right: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+#check{
+    border-radius: 6px;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#check:hover{
+    background-color: LightSalmon;
 }
