@@ -1,21 +1,20 @@
 body{
     justify-content: center;
     display: flex;
-    font-weight: bold;
 }
 #continer{
     height: 300px;
     width: 500px;
     position: relative;
-    background-color: antiquewhite;
+    background-color: rgb(169, 231, 185);
     justify-content: center;
     
 }
 #heading1 {
     font-size: 50px;
     text-align: center;
-    background-color: black;
-    color: blanchedalmond;
+    background-color: red;  
+    color: white;
     margin-top: 0px;
 }
 #heading2{
@@ -43,6 +42,7 @@ body{
     height: 25px;
     font-size: 15px;
     font-weight: bold;
+    background-color: yellowgreen;
 }
 #check:hover{
     background-color: LightSalmon;
